@@ -1,5 +1,5 @@
 body {
-  background-color: #F4D04E;
+  background-color: #f4d04e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@ body {
 
 .main__category {
   font-size: 14px;
-  background-color: #F4D04E;
+  background-color: #f4d04e;
   height: fit-content;
   width: fit-content;
   border-radius: 4px;
@@ -55,7 +55,7 @@ body {
 
 .main__data {
   font-size: 14px;
-  line-height: 150%;  
+  line-height: 150%;
   font-weight: 500;
 }
 
@@ -68,13 +68,12 @@ body {
 }
 
 .main__title:hover {
-  color: #F4D04E;
-
+  color: #f4d04e;
 }
 
-.main__description{
+.main__description {
   font-size: 16px;
-  color: #6B6B6B;
+  color: #6b6b6b;
   line-height: 150%;
   text-align: left;
 }
@@ -89,7 +88,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
   .main__image {
     width: 279px;
     height: 200px;
@@ -115,6 +113,4 @@ body {
   .main__description {
     font-size: 14px;
   }
-
-
 }
