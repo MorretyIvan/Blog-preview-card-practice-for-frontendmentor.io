@@ -81,10 +81,17 @@ body {
 .main__author {
   display: flex;
   gap: 12px;
+  align-items: center ;
+  height:fit-content ;
 }
+
+.userpic {
+  height: fit-content;
+} 
 
 .main__author p {
   font-weight: 800;
+  margin: 0px;
 }
 
 @media (max-width: 600px) {
